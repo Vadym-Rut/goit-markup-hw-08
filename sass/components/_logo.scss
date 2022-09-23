@@ -1,0 +1,21 @@
+.logo {
+  display: inline-block;
+
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  @include fontSize(700, 24px, 28px);
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  &__second-part {
+    color: #000000;
+  }
+
+  &__second-part--inverse {
+    color: var(--primary-bg-color);
+  }
+
+  @media screen and (min-width: 1200px) {
+    @include fontSize(700, 26px, 31px);
+  }
+}

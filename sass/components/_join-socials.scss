@@ -1,0 +1,27 @@
+.join-socials {
+  margin-bottom: 60px;
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+
+    color: var(--primary-bg-color);
+  }
+
+  @media screen and (min-width: 1200px) {
+    text-align: start;
+    margin-bottom: 0;
+  }
+}
+
+.socials-list__link--in-footer {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.socials-list__icon--in-footer {
+  fill: var(--primary-bg-color);
+}
